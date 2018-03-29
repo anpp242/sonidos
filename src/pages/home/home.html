@@ -17,10 +17,9 @@
       <h2>{{ animal.nombre }}</h2>
       <ion-icon *ngIf="animal.reproduciendo" name="play" item-right></ion-icon>
       <ion-icon *ngIf="!animal.reproduciendo" name="pause" item-right></ion-icon>
-      <p>Ugh. As if.</p>
+      <p>{{ animal.descripcion }}</p>
     </ion-item>
 
-    
-          
+
   </ion-list>
 </ion-content>

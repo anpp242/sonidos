@@ -4,4 +4,5 @@ export interface Animal{
     audio:string;
     duracion:number;
     reproduciendo:boolean;
+    descripcion:string;
 }
